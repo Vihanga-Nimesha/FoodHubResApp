@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperres"
+    tools:context=".Like">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        app:cardCornerRadius="25dp"
+        >
+
+        <ImageButton
+            android:id="@+id/userimg"
+            android:layout_width="128dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="90dp"
+            android:background="@mipmap/like"
+            android:foregroundGravity="center" />
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:src="@drawable/ic_phone_android_black_24dp"
+            android:text="Like "
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/backbutton" />
+
+        <ImageView
+            android:id="@+id/MenuBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="347dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/menuicon" />
+
+    </RelativeLayout>
+
+</LinearLayout>
